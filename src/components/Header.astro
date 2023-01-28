@@ -1,0 +1,40 @@
+---
+import { SITE_TITLE } from '../consts';
+---
+
+<header>
+    <div class="header">
+        <div class="logo">
+            <div class="logo-name">
+            {SITE_TITLE}
+            </div>
+        </div>
+    </div>
+</header>
+<style>
+    div.header {
+        height: 300px;
+        background-image: url(/road-bright-sun.webp);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        box-shadow: 0px 0px 10px #666;
+	}
+    div.logo {
+        display: inline-block;
+        font-family: 'IBM Plex Sans', Arial, sans-serif;
+        background-color: rgba(64, 64, 64, 0.5);
+        padding: 3px 10px 0px 10px;
+        margin-top: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    div.logo-name {
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: normal;
+        text-decoration: none;
+        padding-bottom: 0.5rem;
+        color: #FFA500;
+    }
+</style>
